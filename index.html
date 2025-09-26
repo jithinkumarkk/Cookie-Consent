@@ -1,41 +1,53 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cookie Consent</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase – Demo Store</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is just some content to simulate a real page.</p>
+  <header>
+    <h1>🛍️ Jithin ShopEase</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Cart</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="icon.png" alt="Product" />
+        <h3>Wireless Headphones</h3>
+        <p>₹2,499</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="icon.png" alt="Product" />
+        <h3>Smart Watch</h3>
+        <p>₹3,999</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="icon.png" alt="Product" />
+        <h3>Bluetooth Speaker</h3>
+        <p>₹1,299</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
 
   <!-- Cookie popup -->
   <div id="cookie-popup">
     <p id="close-btn">X</p>
-    <img src="icon.png"/>
-    <p>We use cookies to improve your user experience.</p>
+    <img src="icon.png" alt="Cookie Icon" />
+    <p>We use cookies to improve your shopping experience.</p>
     <button id="accept-btn">I like Cookies</button>
   </div>
 
-  <script>
-    const popup = document.getElementById('cookie-popup');
-    const acceptBtn = document.getElementById('accept-btn');
-    const closeBtn = document.getElementById('close-btn');
-
-     if (!localStorage.getItem('cookieAccepted')) {
-      popup.classList.add('show');
-    }
-
-     acceptBtn.addEventListener('click', () => {
-      popup.classList.remove('show');
-      localStorage.setItem('cookieAccepted', 'true');
-    });
-
-   closeBtn.addEventListener('click', () => {
-      popup.classList.remove('show');
-    });
-
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
