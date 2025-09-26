@@ -1,9 +1,7 @@
 ## Cookie Consent Popup
 
     A lightweight, customizable cookie consent popup built with HTML, CSS, and JavaScript. This project helps websites comply with GDPR and other privacy regulations by asking users for cookie consent and storing their response locally.
-    
-    Live demo: [https://jithinkumarkk.github.io/Cookie-Consent/](https://jithinkumarkk.github.io/Cookie-Consent/)
-
+     
 ## Features
 
     - Simple and easy to integrate
@@ -19,6 +17,9 @@
     ├── icon.png 
     └── README.md
 
+## Project URL
+
+Live demo: [https://jithinkumarkk.github.io/Cookie-Consent/](https://jithinkumarkk.github.io/Cookie-Consent/)
 
 ## How to Run the Project
 
