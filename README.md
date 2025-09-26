@@ -22,5 +22,5 @@
 
    **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/cookie-consent-popup.git
+   git clone https://github.com/jithinkumarkk/Cookie-Consent.git
    cd cookie-consent
