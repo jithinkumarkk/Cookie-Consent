@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Consent</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This is just some content to simulate a real page.</p>
+
+  <!-- Cookie popup -->
+  <div id="cookie-popup">
+    <p id="close-btn">X</p>
+    <img src="icon.png"/>
+    <p>We use cookies to improve your user experience.</p>
+    <button id="accept-btn">I like Cookies</button>
+  </div>
+
+  <script>
+    const popup = document.getElementById('cookie-popup');
+    const acceptBtn = document.getElementById('accept-btn');
+    const closeBtn = document.getElementById('close-btn');
+
+     if (!localStorage.getItem('cookieAccepted')) {
+      popup.classList.add('show');
+    }
+
+     acceptBtn.addEventListener('click', () => {
+      popup.classList.remove('show');
+      localStorage.setItem('cookieAccepted', 'true');
+    });
+
+   closeBtn.addEventListener('click', () => {
+      popup.classList.remove('show');
+    });
+
+  </script>
+</body>
+</html>
