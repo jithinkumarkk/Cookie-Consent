@@ -17,10 +17,6 @@
     ├── icon.png 
     └── README.md
 
-## Project Page URL
-
-https://roadmap.sh/projects/cookie-consent
-
  
 ## How to Run the Project
 
