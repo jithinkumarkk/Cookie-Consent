@@ -17,9 +17,13 @@
     ├── icon.png 
     └── README.md
 
-## Project URL
+## Project Page URL
 
-Live demo: [https://jithinkumarkk.github.io/Cookie-Consent/](https://jithinkumarkk.github.io/Cookie-Consent/)
+https://roadmap.sh/projects/cookie-consent
+
+## Live demo URL
+
+Live demo: [https://jithinkumarkk.github.io/Cookie-Consent/](https://jithinkumarkk.github.io/Cookie-Consent/) 
 
 ## How to Run the Project
 
